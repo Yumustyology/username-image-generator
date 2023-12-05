@@ -38,7 +38,7 @@ function getRandomColor(): string {
       context.fillStyle = bgColor;
       context.fillRect(0, 0, canvas.width, canvas.height);
   
-      context.font = '48px Arial';
+      context.font = '40px Arial';
       context.fillStyle = textColor;
       context.textAlign = 'center';
       context.textBaseline = 'middle';
